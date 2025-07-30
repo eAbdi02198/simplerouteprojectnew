@@ -10,24 +10,20 @@ import Js from "./pages/Js";
 import Php from "./pages/Php";
 import Privet from "./pages/Privet";
 
-
 export default function App() {
-  let routes=useRoutes([
-    {path:"/",element:<Home></Home>},
-    {path:"/about",element:<About></About>},
-    {path:"/login",element:<Login></Login>},
-    {path:"/article/*",element:<Article></Article>,children:[
-      {path:"js",element:<Js></Js>},
-      {path:"php",element:<Php></Php>},
-    
-    
-    ]},
-    {path:"/panel",element:<Privet><Panel></Panel></Privet>},
-    {path:"/course/:id", element:<Course></Course>}
-  ])
-  return (
-    <>
-    {routes}
-    </>
-  );
+  let routes = useRoutes([
+    { path: "/", element: <Home /> },
+    { path: "/about", element: <About /> },
+    { path: "/login", element: <Login /> },
+    {
+      path: "/article/*", element: <Article />, children: [
+        { path: "js", element: <Js /> },
+        { path: "php", element: <Php /> },
+      ]
+    },
+    { path: "/panel", element: <Privet><Panel /></Privet> },
+    { path: "/course/:id", element: <Course /> }
+  ]);
+
+  return <>{routes}</>;
 }
