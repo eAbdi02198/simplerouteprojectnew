@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/simplerouteprojectnew/static/css/main.82c98085.css",
+    "main.js": "/simplerouteprojectnew/static/js/main.b6194d17.js",
+    "static/media/undraw_forgot-password_nttj.png": "/simplerouteprojectnew/static/media/undraw_forgot-password_nttj.a1696ebb6603943b4dd4.png",
+    "index.html": "/simplerouteprojectnew/index.html",
+    "main.82c98085.css.map": "/simplerouteprojectnew/static/css/main.82c98085.css.map",
+    "main.b6194d17.js.map": "/simplerouteprojectnew/static/js/main.b6194d17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82c98085.css",
+    "static/js/main.b6194d17.js"
+  ]
+}
