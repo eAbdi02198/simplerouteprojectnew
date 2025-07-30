@@ -1,0 +1,45 @@
+/* پس زمینه روشن بهاری */
+.navbar {
+    background: linear-gradient(to right, #a8e6cf, #dcedc1); /* سبز ملایم */
+    border-bottom: 3px solid #ffaaa5; /* صورتی بهاری */
+  }
+  
+  /* استایل برند */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #388e3c !important; /* سبز تیره */
+    transition: color 0.3s;
+  }
+  
+  .navbar-brand:hover {
+    color: #ff6f61 !important; /* صورتی نارنجی */
+  }
+  
+  /* لینک‌ها */
+  .man {
+    color: #388e3c; /* سبز تیره */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: all 0.3s;
+  }
+  
+  .man:hover {
+    color: #ff6f61; /* صورتی بهاری */
+    transform: scale(1.1);
+  }
+  
+  /* بک‌گراند Offcanvas */
+  .offcanvas {
+    background: linear-gradient(to bottom, #dcedc1, #ffd3b6);
+  }
+  
+  /* دکمه‌ی منو */
+  .navbar-toggler {
+    border-color: #ffaaa5;
+  }
+  
+  .navbar-toggler-icon {
+    filter: brightness(0.4);
+  }

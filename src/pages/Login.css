@@ -1,0 +1,60 @@
+/* پس زمینه کل صفحه */
+.login-container {
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* فرم لاگین */
+  .login-form {
+    background: white;
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  
+  /* عنوان فرم */
+  .login-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  /* ورودی‌ها */
+  .login-form input {
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1.5px solid #ccc;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .login-form input:focus {
+    border-color: #667eea;
+    outline: none;
+  }
+  
+  /* دکمه ورود */
+  .login-form button {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: #667eea;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-form button:hover {
+    background: #556cd6;
+  }

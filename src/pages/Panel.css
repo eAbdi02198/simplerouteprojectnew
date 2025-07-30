@@ -1,0 +1,65 @@
+body {
+    background: #f4f6f9;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* کانتینر اصلی پنل */
+  .panel {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    overflow: hidden;
+    animation: fadeIn 1s ease;
+  }
+  
+  /* هدر پنل */
+  .panel-header {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  .panel-header h1 {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: 2px;
+  }
+  
+  /* محتوای کارت‌ها */
+  .panel-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+    gap: 20px;
+  }
+  
+  /* کارت‌ها */
+  .panel-card {
+    flex: 1 1 200px;
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .panel-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+  }
+  
+  /* انیمیشن ظاهر شدن */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(40px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
